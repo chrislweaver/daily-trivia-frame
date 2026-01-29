@@ -131,6 +131,30 @@ const app = new Hono();
 // CORS for development
 app.use('/api/*', cors());
 
+// Farcaster manifest - explicit route
+app.get('/.well-known/farcaster.json', (c) => {
+  return c.json({
+    "accountAssociation": {
+      "header": "eyJmaWQiOjI1MDc4MTMsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg1NjkwNzg1MzljM0ViOTlEZmE5YTBmYzNkOTA1NjM4YUMyOTAyRTMwIn0",
+      "payload": "eyJkb21haW4iOiJkYWlseS10cml2aWEtZnJhbWUtcHJvZHVjdGlvbi51cC5yYWlsd2F5LmFwcCJ9",
+      "signature": "rIah9KiqlJl+E/Pi0GAeLycM9JCMvN+vtat2UgxDvyN4SLD/P+iBJ0nx9U0qe06/Uec7tnijPeFGZVYknaYaxBs="
+    },
+    "frame": {
+      "version": "1",
+      "name": "Daily Trivia",
+      "iconUrl": "https://daily-trivia-frame-production.up.railway.app/og.png",
+      "homeUrl": "https://daily-trivia-frame-production.up.railway.app",
+      "imageUrl": "https://daily-trivia-frame-production.up.railway.app/image.png",
+      "splashImageUrl": "https://daily-trivia-frame-production.up.railway.app/og.png",
+      "splashBackgroundColor": "#0a0a0a",
+      "webhookUrl": "https://daily-trivia-frame-production.up.railway.app/api/webhook",
+      "subtitle": "Test your crypto knowledge daily",
+      "description": "Daily trivia about Farcaster, crypto, and meme culture. Track streaks, compete on leaderboards.",
+      "primaryCategory": "games"
+    }
+  });
+});
+
 // API: Get user data
 app.get('/api/user/:fid', (c) => {
   const fid = parseInt(c.req.param('fid'));
