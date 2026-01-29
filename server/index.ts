@@ -148,7 +148,7 @@ app.get('/.well-known/farcaster.json', (c) => {
       "splashImageUrl": "https://daily-trivia-frame-production.up.railway.app/og.png",
       "splashBackgroundColor": "#0a0a0a",
       "webhookUrl": "https://daily-trivia-frame-production.up.railway.app/api/webhook",
-      "subtitle": "Test your crypto knowledge daily",
+      "subtitle": "Test your crypto knowledge",
       "description": "Daily trivia about Farcaster, crypto, and meme culture. Track streaks, compete on leaderboards.",
       "primaryCategory": "games"
     }
