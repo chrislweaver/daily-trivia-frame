@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "question": "Who are the co-founders of Farcaster?",
+    "options": ["Vitalik & Dan", "Dan Romero & Varun Srinivasan", "Brian Armstrong & Jesse", "Dan & Linda"],
+    "correct": 1,
+    "category": "Farcaster History",
+    "funFact": "Dan was former VP at Coinbase and Varun was former Director of Engineering!"
+  },
+  {
+    "id": 2,
+    "question": "What year did Farcaster launch?",
+    "options": ["2020", "2021", "2022", "2023"],
+    "correct": 2,
+    "category": "Farcaster History",
+    "funFact": "Farcaster launched in 2022 and has been growing steadily since!"
+  },
+  {
+    "id": 3,
+    "question": "How much Bitcoin did Laszlo Hanyecz pay for two pizzas on Bitcoin Pizza Day?",
+    "options": ["100 BTC", "1,000 BTC", "10,000 BTC", "50,000 BTC"],
+    "correct": 2,
+    "category": "Crypto History",
+    "funFact": "On May 22, 2010, Laszlo paid 10,000 BTC for two Papa John's pizzas. Worth billions today!"
+  },
+  {
+    "id": 4,
+    "question": "What does WAGMI stand for?",
+    "options": ["We're All Gonna Miss It", "We're All Getting Money In", "We're All Gonna Make It", "Whales Are Getting More Investment"],
+    "correct": 2,
+    "category": "Crypto Culture",
+    "funFact": "WAGMI became popular during the 2021 bull run as a rallying cry of optimism!"
+  },
+  {
+    "id": 5,
+    "question": "What is the name of Farcaster's on-chain hub?",
+    "options": ["Hubs", "Nodes", "Relayers", "Anchors"],
+    "correct": 0,
+    "category": "Farcaster Tech",
+    "funFact": "Hubs store and sync Farcaster data across the network!"
+  },
+  {
+    "id": 6,
+    "question": "When did Ethereum mainnet launch?",
+    "options": ["July 30, 2014", "July 30, 2015", "July 30, 2016", "January 3, 2009"],
+    "correct": 1,
+    "category": "Crypto History",
+    "funFact": "Ethereum launched on July 30, 2015, also known as 'Frontier'!"
+  },
+  {
+    "id": 7,
+    "question": "What is the origin of the term 'HODL'?",
+    "options": ["An acronym created by analysts", "A typo in a Bitcoin forum post", "A technical trading term", "Satoshi Nakamoto coined it"],
+    "correct": 1,
+    "category": "Crypto Culture",
+    "funFact": "In 2013, a drunk Bitcoiner typed 'I AM HODLING' instead of 'holding' and a meme was born!"
+  },
+  {
+    "id": 8,
+    "question": "What is the name of Farcaster's native token?",
+    "options": ["CAST", "FCAST", "Farcaster has no token yet", "WARP"],
+    "correct": 2,
+    "category": "Farcaster",
+    "funFact": "Farcaster focuses on protocol development without a token - refreshing in web3!"
+  },
+  {
+    "id": 9,
+    "question": "Which company built Base, the L2 on Ethereum?",
+    "options": ["OpenSea", "Uniswap", "Coinbase", "Consensys"],
+    "correct": 2,
+    "category": "Protocol Trivia",
+    "funFact": "Base launched in August 2023 and became one of the most active L2s!"
+  },
+  {
+    "id": 10,
+    "question": "What is 'gm' culture in crypto?",
+    "options": ["General Meeting", "Good Money", "Good Morning greeting ritual", "Gaming Mode"],
+    "correct": 2,
+    "category": "Crypto Culture",
+    "funFact": "The gm/gn culture represents crypto community vibes and positive energy!"
+  },
+  {
+    "id": 11,
+    "question": "What is the name of Farcaster's first official mobile app?",
+    "options": ["Farcaster App", "Warpcast", "CastApp", "Farcast"],
+    "correct": 1,
+    "category": "Farcaster",
+    "funFact": "Warpcast is developed by Merkle Manufactory, the company behind Farcaster!"
+  },
+  {
+    "id": 12,
+    "question": "What is the Bitcoin genesis block's famous embedded message about?",
+    "options": ["Pizza", "Bank bailouts", "Moon landing", "Computer science"],
+    "correct": 1,
+    "category": "Crypto History",
+    "funFact": "'Chancellor on brink of second bailout for banks' - The Times headline from Jan 3, 2009!"
+  },
+  {
+    "id": 13,
+    "question": "What technology stack is Optimism built on?",
+    "options": ["ZK Rollups", "Optimistic Rollups", "Sidechains", "Plasma"],
+    "correct": 1,
+    "category": "Protocol Trivia",
+    "funFact": "Optimism uses optimistic rollups, assuming transactions are valid unless proven otherwise!"
+  },
+  {
+    "id": 14,
+    "question": "What is a 'Farcaster Channel'?",
+    "options": ["A payment method", "A topic-based community feed", "A private messaging feature", "A token holder group"],
+    "correct": 1,
+    "category": "Farcaster",
+    "funFact": "Channels like /degen and /base have become major community gathering spots!"
+  },
+  {
+    "id": 15,
+    "question": "Who created Ethereum?",
+    "options": ["Satoshi Nakamoto", "Charles Hoskinson", "Vitalik Buterin", "Gavin Wood"],
+    "correct": 2,
+    "category": "Crypto History",
+    "funFact": "Vitalik proposed Ethereum in 2013 when he was just 19 years old!"
+  },
+  {
+    "id": 16,
+    "question": "What is the /degen channel famous for on Farcaster?",
+    "options": ["NFT trading", "Tipping culture and DEGEN token", "Technical discussions", "Art sharing"],
+    "correct": 1,
+    "category": "Farcaster",
+    "funFact": "The DEGEN token became one of Farcaster's breakout community tokens in 2024!"
+  },
+  {
+    "id": 17,
+    "question": "What does 'ngmi' mean?",
+    "options": ["Never Give Money In", "Not Gonna Make It", "New General Market Index", "No Good Moral Investment"],
+    "correct": 1,
+    "category": "Crypto Culture",
+    "funFact": "NGMI is the pessimistic counterpart to WAGMI, often used jokingly!"
+  },
+  {
+    "id": 18,
+    "question": "What year did the Bitcoin whitepaper get published?",
+    "options": ["2007", "2008", "2009", "2010"],
+    "correct": 1,
+    "category": "Crypto History",
+    "funFact": "Satoshi published the whitepaper on October 31, 2008 - Halloween!"
+  },
+  {
+    "id": 19,
+    "question": "What is a 'Frame' in Farcaster?",
+    "options": ["A profile picture border", "An interactive mini-app in casts", "A type of NFT", "A channel subscription"],
+    "correct": 1,
+    "category": "Farcaster Tech",
+    "funFact": "Frames launched in early 2024 and enabled interactive experiences within casts!"
+  },
+  {
+    "id": 20,
+    "question": "What is the Optimism Collective's governance token?",
+    "options": ["OPT", "OP", "OPTI", "OPS"],
+    "correct": 1,
+    "category": "Protocol Trivia",
+    "funFact": "OP token holders participate in governance of the Optimism ecosystem!"
+  },
+  {
+    "id": 21,
+    "question": "What is the meaning of '1337' in internet culture?",
+    "options": ["A lucky number", "'Elite' in leetspeak", "Bitcoin block number", "An error code"],
+    "correct": 1,
+    "category": "Crypto Culture",
+    "funFact": "Leetspeak (1337 speak) originated in the 1980s BBS era and lives on in crypto!"
+  },
+  {
+    "id": 22,
+    "question": "Which blockchain does Farcaster use for identity?",
+    "options": ["Ethereum mainnet", "Polygon", "Optimism", "Solana"],
+    "correct": 2,
+    "category": "Farcaster Tech",
+    "funFact": "Farcaster IDs (FIDs) are registered on Optimism for low gas fees!"
+  },
+  {
+    "id": 23,
+    "question": "What is 'The Merge' in Ethereum history?",
+    "options": ["Two chains combining", "ETH and ETC merging", "Proof of Work to Proof of Stake transition", "Layer 2 integration"],
+    "correct": 2,
+    "category": "Crypto History",
+    "funFact": "The Merge happened on September 15, 2022, reducing ETH energy use by ~99.95%!"
+  },
+  {
+    "id": 24,
+    "question": "What is a 'FID' in Farcaster?",
+    "options": ["Farcaster Identity Document", "Frame Interactive Design", "Farcaster ID (unique user number)", "Follow Interaction Data"],
+    "correct": 2,
+    "category": "Farcaster Tech",
+    "funFact": "Low FIDs are highly valued as they indicate early Farcaster adoption!"
+  },
+  {
+    "id": 25,
+    "question": "What meme token launched the 'dog coin' craze?",
+    "options": ["Shiba Inu", "Dogecoin", "Floki", "Baby Doge"],
+    "correct": 1,
+    "category": "Crypto Culture",
+    "funFact": "Dogecoin was created in 2013 as a joke, inspired by the Shiba Inu 'Doge' meme!"
+  },
+  {
+    "id": 26,
+    "question": "What is Warps in Farcaster?",
+    "options": ["A currency for tipping", "Premium features/storage units", "A teleportation feature", "Channel subscriptions"],
+    "correct": 1,
+    "category": "Farcaster",
+    "funFact": "Warps power premium features like storage in the Farcaster ecosystem!"
+  },
+  {
+    "id": 27,
+    "question": "What famous event happened on 'The DAO' in 2016?",
+    "options": ["First DeFi launch", "Massive hack and ETH fork", "Bitcoin halving", "First NFT mint"],
+    "correct": 1,
+    "category": "Crypto History",
+    "funFact": "The DAO hack led to Ethereum Classic (ETC) splitting from Ethereum (ETH)!"
+  },
+  {
+    "id": 28,
+    "question": "What is the Base network's relationship to Optimism?",
+    "options": ["They're competitors", "Base is built on the OP Stack", "Base acquired Optimism", "No relationship"],
+    "correct": 1,
+    "category": "Protocol Trivia",
+    "funFact": "Base uses the OP Stack and contributes to the Optimism Superchain vision!"
+  },
+  {
+    "id": 29,
+    "question": "What does 'aping in' mean in crypto?",
+    "options": ["Using leverage", "Investing without research (going full ape)", "Creating a token", "Joining a DAO"],
+    "correct": 1,
+    "category": "Crypto Culture",
+    "funFact": "Aping became especially popular during NFT season when people bought without thinking!"
+  },
+  {
+    "id": 30,
+    "question": "Which channel is known for discussing Farcaster development?",
+    "options": ["/dev", "/farcaster", "/builders", "/protocol"],
+    "correct": 1,
+    "category": "Farcaster",
+    "funFact": "The /farcaster channel is where protocol updates and discussions happen!"
+  },
+  {
+    "id": 31,
+    "question": "What is the maximum supply of Bitcoin?",
+    "options": ["100 million", "21 million", "18 million", "Unlimited"],
+    "correct": 1,
+    "category": "Crypto History",
+    "funFact": "The last Bitcoin will be mined around the year 2140!"
+  },
+  {
+    "id": 32,
+    "question": "What is 'power badge' on Farcaster?",
+    "options": ["Admin status", "Verified influential user status", "Developer badge", "Paid subscriber"],
+    "correct": 1,
+    "category": "Farcaster",
+    "funFact": "Power badges help identify quality contributors in the Farcaster ecosystem!"
+  },
+  {
+    "id": 33,
+    "question": "What does 'LFG' stand for in crypto Twitter/Farcaster?",
+    "options": ["Looking For Group", "Let's Freaking Go", "Long For Gains", "Low Fee Gas"],
+    "correct": 1,
+    "category": "Crypto Culture",
+    "funFact": "LFG is the battle cry of crypto enthusiasts, especially during launches!"
+  },
+  {
+    "id": 34,
+    "question": "What was the first NFT project to explode in mainstream popularity?",
+    "options": ["Bored Ape Yacht Club", "CryptoPunks", "Art Blocks", "Pudgy Penguins"],
+    "correct": 1,
+    "category": "Crypto History",
+    "funFact": "CryptoPunks launched in 2017 and paved the way for the NFT revolution!"
+  },
+  {
+    "id": 35,
+    "question": "What unique feature does Farcaster have for usernames?",
+    "options": ["They're free forever", "They're NFTs that expire yearly", "They cost gas to change", "They're case sensitive"],
+    "correct": 1,
+    "category": "Farcaster Tech",
+    "funFact": "Farcaster names (fnames) are registered on-chain and require annual renewal!"
+  },
+  {
+    "id": 36,
+    "question": "What is the 'Superchain' vision?",
+    "options": ["A Bitcoin fork", "Network of interoperable OP Stack chains", "Ethereum 3.0", "Solana upgrade"],
+    "correct": 1,
+    "category": "Protocol Trivia",
+    "funFact": "The Superchain aims to create a unified network of L2s sharing security and communication!"
+  },
+  {
+    "id": 37,
+    "question": "What is 'touch grass' advice in crypto?",
+    "options": ["Buy a farm token", "Take a break and go outside", "Stake in green protocols", "Join an eco DAO"],
+    "correct": 1,
+    "category": "Crypto Culture",
+    "funFact": "A gentle reminder to step away from charts and touch some real grass!"
+  },
+  {
+    "id": 38,
+    "question": "What is Moxie on Farcaster?",
+    "options": ["A meme coin", "A social token/points system", "A channel", "An NFT collection"],
+    "correct": 1,
+    "category": "Farcaster",
+    "funFact": "Moxie rewards engagement and became a key part of Farcaster's social layer!"
+  },
+  {
+    "id": 39,
+    "question": "When is Bitcoin Pizza Day celebrated?",
+    "options": ["January 3", "May 22", "July 30", "October 31"],
+    "correct": 1,
+    "category": "Crypto History",
+    "funFact": "Every May 22, crypto celebrates the first real-world Bitcoin transaction!"
+  },
+  {
+    "id": 40,
+    "question": "What is 'recasting' on Farcaster?",
+    "options": ["Deleting and reposting", "Resharing someone's cast (like retweet)", "Editing a cast", "Replying to yourself"],
+    "correct": 1,
+    "category": "Farcaster",
+    "funFact": "Recasts help amplify great content across the Farcaster network!"
+  }
+]

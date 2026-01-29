@@ -1,0 +1,33 @@
+{
+  "name": "daily-trivia",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "vite --port 5173",
+    "dev:server": "tsx watch server/index.ts",
+    "build": "npm run build:client && cp -r public/* dist/",
+    "build:client": "tsc -b && vite build",
+    "start": "NODE_ENV=production tsx server/index.ts",
+    "preview": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "@farcaster/frame-sdk": "^0.1.13",
+    "@hono/node-server": "^1.13.8",
+    "hono": "^4.7.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.6"
+  }
+}
