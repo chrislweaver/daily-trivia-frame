@@ -289,7 +289,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use('/assets/*', serveStatic({ root: './dist' }));
   app.use('/og.png', serveStatic({ root: './dist', path: '/og.png' }));
   app.use('/og.svg', serveStatic({ root: './dist', path: '/og.svg' }));
-  app.use('/.well-known/*', serveStatic({ root: './dist' }));
+  // Note: /.well-known/farcaster.json is handled by explicit route above
   
   // Serve index.html for all other routes (SPA fallback)
   app.get('*', (c) => {
